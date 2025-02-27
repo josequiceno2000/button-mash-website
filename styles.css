@@ -5,3 +5,24 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+/* Header */
+.logo img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 33px;
+    top: 34px;
+    cursor: pointer;
+    background-image: url(img/swords.png);
+    transition: ease 0.4s all;
+}
+
+.logo img:hover{
+    width: 120px;
+    height: 120px;
+    background-image: url(img/swords-hover.png);
+    filter: saturate(100%);
+}
+
+
