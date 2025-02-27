@@ -7,6 +7,17 @@ body {
 }
 
 /* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+hgroup {
+    display: inline-block;
+}
+
 figure {
     display: inline-block;
 }
@@ -15,7 +26,6 @@ figure {
     width: 100px;
     height: 100px;
     position: relative;
-    left: 33px;
     top: 34px;
     cursor: pointer;
     background-image: url(img/swords.png);
@@ -41,7 +51,60 @@ h1 {
     text-shadow: 4px 4px 4px rgba(106, 61, 48, 0.6);
     display: inline-block;
     position: relative;
-    top: 16px;
-    left: 40px;
+    top: 16px; 
 }
 
+/* Navigation */
+nav {
+    display: inline-block;
+    position: relative;
+    top: 24px;
+    
+}
+
+nav ul li {
+    font-family: "Kelly Slab";
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 11px 14px;
+    border: 1px solid white;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 2px;
+    margin: auto 2px;
+    transition: ease 0.3s all;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: ease 0.3s all;
+}
+
+nav ul li:hover {
+    background-color: #1C1C2C;
+}
+
+nav ul li a:hover {
+    color: #f43c04;
+    font-size: 32px;
+}
+
+.current {
+    background-color: #f43c04;
+}
+
+.current:hover {
+    background-color: #ff3c01;
+}
+
+.current a {
+    font-weight: 700;
+    color: #1C1C2C;
+    transition: ease 0.3s all;
+}
+
+.current a:hover {
+    color: white;
+}
