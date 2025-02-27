@@ -125,6 +125,8 @@ nav ul li a:hover {
     color: white;
 }
 
+/* Main Content */
+
 h2 {
     font-family: "Kelly Slab", sans-serif;
     font-size: 60px;
@@ -132,5 +134,57 @@ h2 {
     position: relative;
     left: 76px;
     top: 40px;
+}
 
+.console-list {
+    position: relative;
+    left: 60px;
+    top: 50px;
+    cursor: url(img/Cursor.png);
+}
+
+article {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+/* Text and Buttons */
+h3 {
+    color: white;
+    font-size: 30px;
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 10px 20px;
+}
+
+button {
+    width: 160px;
+    height: 52px;
+    flex-shrink: 0;
+    font-family: "Kelly Slab", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 6px;
+    border: 3px sold #FFFFFF;
+    background-color: #f43c04;
+    color: white;
+    cursor: url(img/Cursor.png);
+}
+
+button:hover {
+    cursor: url(img/Cursor-Hover.png);
+}
+
+/* Images */
+article img {
+    transition: ease 0.3s all;
+}
+
+article img:hover {
+    width: 240px;
 }
