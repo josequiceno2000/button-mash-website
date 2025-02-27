@@ -4,6 +4,7 @@ body {
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    cursor: url(img/Cursor.png), auto;
 }
 
 /* Header */
@@ -27,9 +28,9 @@ figure {
     height: 100px;
     position: relative;
     top: 34px;
-    cursor: pointer;
     background-image: url(img/swords.png);
     transition: ease 0.4s all;
+    cursor: url(img/Cursor-Hover.png), auto;
 }
 
 .logo img:hover{
@@ -37,6 +38,7 @@ figure {
     height: 120px;
     background-image: url(img/swords-hover.png);
     filter: saturate(100%);
+    cursor: url(img/Cursor-Hover.png), auto;
 }
 
 h1 {
@@ -52,7 +54,21 @@ h1 {
     display: inline-block;
     position: relative;
     top: 16px; 
+    cursor: url(img/Cursor.png), auto;
 }
+
+h1:hover {
+    cursor: url(img/Cursor-Hover.png), auto;
+}
+
+a {
+    cursor: url(img/Cursor.png), auto;
+}
+
+a:hover {
+    cursor: url(img/Cursor-Hover.png), auto;
+}
+
 
 /* Navigation */
 nav {
@@ -107,4 +123,14 @@ nav ul li a:hover {
 
 .current a:hover {
     color: white;
+}
+
+h2 {
+    font-family: "Kelly Slab", sans-serif;
+    font-size: 60px;
+    color: white;
+    position: relative;
+    left: 76px;
+    top: 40px;
+
 }
